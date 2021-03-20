@@ -1,0 +1,24 @@
+.btn {
+    padding: 10px 20px;
+    border: 2px solid rgba(150,150,150);
+    border-radius: 2px;
+    background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(150,150,150,1) 100%);
+    font-family: 'JetBrains Mono';
+    outline: none;
+    transition-duration: 100ms
+}
+
+.IT {
+    padding: 10px 20px;
+    border: 2px solid rgba(150,150,150);
+    border-radius: 2px;
+    background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(150,150,150,1) 100%);
+    outline: none;
+    transition-duration: 100ms
+}
+.IT::placeholder {
+    font-family: 'JetBrains Mono';
+}
+.btn:hover {
+    transform: scale(1.05)
+}
